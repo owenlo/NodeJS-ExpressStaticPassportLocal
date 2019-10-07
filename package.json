@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-expressstaticpassportlocal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owenlo/NodeJS-ExpressStaticPassportLocal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owenlo/NodeJS-ExpressStaticPassportLocal/issues"
+  },
+  "homepage": "https://github.com/owenlo/NodeJS-ExpressStaticPassportLocal#readme",
+  "dependencies": {
+    "connect-ensure-login": "^0.1.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
